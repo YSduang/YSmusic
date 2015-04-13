@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		079747211CBBABB3D1B2F299 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F91A1B184BEDC6655A37D2 /* libPods.a */; };
 		BC560F1A1AD79AAB005F3FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC560F191AD79AAB005F3FEB /* main.m */; };
-		BC560F1D1AD79AAB005F3FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC560F1C1AD79AAB005F3FEB /* AppDelegate.m */; };
-		BC560F201AD79AAB005F3FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC560F1F1AD79AAB005F3FEB /* ViewController.m */; };
 		BC560F231AD79AAB005F3FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC560F211AD79AAB005F3FEB /* Main.storyboard */; };
-		BC560F251AD79AAB005F3FEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC560F241AD79AAB005F3FEB /* Images.xcassets */; };
 		BC560F281AD79AAB005F3FEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC560F261AD79AAB005F3FEB /* LaunchScreen.xib */; };
 		BC560F341AD79AAB005F3FEB /* YSmusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC560F331AD79AAB005F3FEB /* YSmusicTests.m */; };
+		BCE558AD1ADB60C3008A92E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE558AC1ADB60C3008A92E5 /* Images.xcassets */; };
+		BCE558B71ADB6190008A92E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE558B61ADB6190008A92E5 /* AppDelegate.m */; };
+		BCE558CA1ADB6396008A92E5 /* YSfindController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE558C91ADB6396008A92E5 /* YSfindController.m */; };
+		BCE558CC1ADB64B9008A92E5 /* find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE558CB1ADB64B9008A92E5 /* find.storyboard */; };
+		BCE558CE1ADB64E0008A92E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE558CD1ADB64E0008A92E5 /* Main.storyboard */; };
+		BCE558D11ADB6864008A92E5 /* YStabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE558D01ADB6864008A92E5 /* YStabBarController.m */; };
+		BCE558D41ADB6D58008A92E5 /* YSaccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE558D31ADB6D58008A92E5 /* YSaccountController.m */; };
+		BCE558D61ADB6D68008A92E5 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE558D51ADB6D68008A92E5 /* account.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +37,23 @@
 		BC560F141AD79AAB005F3FEB /* YSmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC560F181AD79AAB005F3FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC560F191AD79AAB005F3FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC560F1B1AD79AAB005F3FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BC560F1C1AD79AAB005F3FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC560F1E1AD79AAB005F3FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC560F1F1AD79AAB005F3FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC560F221AD79AAB005F3FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC560F241AD79AAB005F3FEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC560F271AD79AAB005F3FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC560F2D1AD79AAB005F3FEB /* YSmusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSmusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC560F321AD79AAB005F3FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC560F331AD79AAB005F3FEB /* YSmusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSmusicTests.m; sourceTree = "<group>"; };
+		BCE558AC1ADB60C3008A92E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCE558B51ADB6190008A92E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE558B61ADB6190008A92E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE558C81ADB6396008A92E5 /* YSfindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSfindController.h; path = ../../Account/Controllers/YSfindController.h; sourceTree = "<group>"; };
+		BCE558C91ADB6396008A92E5 /* YSfindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSfindController.m; path = ../../Account/Controllers/YSfindController.m; sourceTree = "<group>"; };
+		BCE558CB1ADB64B9008A92E5 /* find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = find.storyboard; path = ../../Account/Views/find.storyboard; sourceTree = "<group>"; };
+		BCE558CD1ADB64E0008A92E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BCE558CF1ADB6864008A92E5 /* YStabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YStabBarController.h; sourceTree = "<group>"; };
+		BCE558D01ADB6864008A92E5 /* YStabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YStabBarController.m; sourceTree = "<group>"; };
+		BCE558D21ADB6D58008A92E5 /* YSaccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSaccountController.h; sourceTree = "<group>"; };
+		BCE558D31ADB6D58008A92E5 /* YSaccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSaccountController.m; sourceTree = "<group>"; };
+		BCE558D51ADB6D68008A92E5 /* account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = account.storyboard; sourceTree = "<group>"; };
 		CFAAD500DF3932202354674D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EFE94997AA10391517930494 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,13 +117,11 @@
 		BC560F161AD79AAB005F3FEB /* YSmusic */ = {
 			isa = PBXGroup;
 			children = (
-				BC560F1B1AD79AAB005F3FEB /* AppDelegate.h */,
-				BC560F1C1AD79AAB005F3FEB /* AppDelegate.m */,
-				BC560F1E1AD79AAB005F3FEB /* ViewController.h */,
-				BC560F1F1AD79AAB005F3FEB /* ViewController.m */,
-				BC560F211AD79AAB005F3FEB /* Main.storyboard */,
-				BC560F241AD79AAB005F3FEB /* Images.xcassets */,
-				BC560F261AD79AAB005F3FEB /* LaunchScreen.xib */,
+				BCE558BC1ADB61BF008A92E5 /* Find */,
+				BCE558C41ADB61BF008A92E5 /* Mine */,
+				BCE558C01ADB61BF008A92E5 /* Friend */,
+				BCE558B81ADB61BF008A92E5 /* Account */,
+				BCE558B41ADB6190008A92E5 /* Others */,
 				BC560F171AD79AAB005F3FEB /* Supporting Files */,
 			);
 			path = YSmusic;
@@ -120,6 +130,9 @@
 		BC560F171AD79AAB005F3FEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCE558AC1ADB60C3008A92E5 /* Images.xcassets */,
+				BC560F211AD79AAB005F3FEB /* Main.storyboard */,
+				BC560F261AD79AAB005F3FEB /* LaunchScreen.xib */,
 				BC560F181AD79AAB005F3FEB /* Info.plist */,
 				BC560F191AD79AAB005F3FEB /* main.m */,
 			);
@@ -141,6 +154,148 @@
 				BC560F321AD79AAB005F3FEB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE558B41ADB6190008A92E5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558B51ADB6190008A92E5 /* AppDelegate.h */,
+				BCE558B61ADB6190008A92E5 /* AppDelegate.m */,
+				BCE558CD1ADB64E0008A92E5 /* Main.storyboard */,
+				BCE558CF1ADB6864008A92E5 /* YStabBarController.h */,
+				BCE558D01ADB6864008A92E5 /* YStabBarController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BCE558B81ADB61BF008A92E5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558B91ADB61BF008A92E5 /* Controllers */,
+				BCE558BA1ADB61BF008A92E5 /* Models */,
+				BCE558BB1ADB61BF008A92E5 /* Views */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BCE558B91ADB61BF008A92E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558D21ADB6D58008A92E5 /* YSaccountController.h */,
+				BCE558D31ADB6D58008A92E5 /* YSaccountController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE558BA1ADB61BF008A92E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCE558BB1ADB61BF008A92E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558D51ADB6D68008A92E5 /* account.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCE558BC1ADB61BF008A92E5 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558BD1ADB61BF008A92E5 /* Controllers */,
+				BCE558BE1ADB61BF008A92E5 /* Models */,
+				BCE558BF1ADB61BF008A92E5 /* Views */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		BCE558BD1ADB61BF008A92E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558C81ADB6396008A92E5 /* YSfindController.h */,
+				BCE558C91ADB6396008A92E5 /* YSfindController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE558BE1ADB61BF008A92E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCE558BF1ADB61BF008A92E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558CB1ADB64B9008A92E5 /* find.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCE558C01ADB61BF008A92E5 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558C11ADB61BF008A92E5 /* Controllers */,
+				BCE558C21ADB61BF008A92E5 /* Models */,
+				BCE558C31ADB61BF008A92E5 /* Views */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		BCE558C11ADB61BF008A92E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE558C21ADB61BF008A92E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCE558C31ADB61BF008A92E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCE558C41ADB61BF008A92E5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BCE558C51ADB61BF008A92E5 /* Controllers */,
+				BCE558C61ADB61BF008A92E5 /* Models */,
+				BCE558C71ADB61BF008A92E5 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BCE558C51ADB61BF008A92E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE558C61ADB61BF008A92E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCE558C71ADB61BF008A92E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +380,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE558AD1ADB60C3008A92E5 /* Images.xcassets in Resources */,
+				BCE558CE1ADB64E0008A92E5 /* Main.storyboard in Resources */,
 				BC560F231AD79AAB005F3FEB /* Main.storyboard in Resources */,
 				BC560F281AD79AAB005F3FEB /* LaunchScreen.xib in Resources */,
-				BC560F251AD79AAB005F3FEB /* Images.xcassets in Resources */,
+				BCE558D61ADB6D68008A92E5 /* account.storyboard in Resources */,
+				BCE558CC1ADB64B9008A92E5 /* find.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +436,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC560F201AD79AAB005F3FEB /* ViewController.m in Sources */,
-				BC560F1D1AD79AAB005F3FEB /* AppDelegate.m in Sources */,
+				BCE558CA1ADB6396008A92E5 /* YSfindController.m in Sources */,
+				BCE558B71ADB6190008A92E5 /* AppDelegate.m in Sources */,
+				BCE558D41ADB6D58008A92E5 /* YSaccountController.m in Sources */,
 				BC560F1A1AD79AAB005F3FEB /* main.m in Sources */,
+				BCE558D11ADB6864008A92E5 /* YStabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

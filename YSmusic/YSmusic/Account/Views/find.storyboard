@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6ZF-8d-v1x">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Sfind Controller-->
+        <scene sceneID="czl-vS-4Jr">
+            <objects>
+                <tableViewController id="nJt-N6-P79" customClass="YSfindController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="273" sectionHeaderHeight="22" sectionFooterHeight="22" id="qyd-yz-OY6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="findCell" rowHeight="273" id="If4-VT-WDa">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="If4-VT-WDa" id="Snf-Ji-NTc">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="V7h-dp-4e1">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="137"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ec8-x4-tzB">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells>
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="un9-MX-Z5C">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </collectionViewCell>
+                                            </cells>
+                                        </collectionView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nJt-N6-P79" id="O2H-I2-DfT"/>
+                            <outlet property="delegate" destination="nJt-N6-P79" id="Uka-o1-tyh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fiA-S1-hdM">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="cm2_top_icn_mic" id="Uez-pg-hHE">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <view key="titleView" contentMode="scaleToFill" id="dS7-ZM-7Xu">
+                            <rect key="frame" x="61" y="6" width="478" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" placeholder="搜索歌曲，歌手，专辑" translatesAutoresizingMaskIntoConstraints="NO" id="yV8-0d-fzu">
+                                    <rect key="frame" x="0.0" y="0.0" width="478" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="tbo-6g-0co"/>
+                                    </constraints>
+                                    <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="yV8-0d-fzu" firstAttribute="top" secondItem="dS7-ZM-7Xu" secondAttribute="top" id="BfR-6I-OrX"/>
+                                <constraint firstAttribute="centerX" secondItem="yV8-0d-fzu" secondAttribute="centerX" id="MrW-PP-AJF"/>
+                                <constraint firstItem="yV8-0d-fzu" firstAttribute="leading" secondItem="dS7-ZM-7Xu" secondAttribute="leading" id="Psm-9i-4SA"/>
+                                <constraint firstAttribute="trailing" secondItem="yV8-0d-fzu" secondAttribute="trailing" id="iCW-Ij-hFH"/>
+                            </constraints>
+                        </view>
+                        <barButtonItem key="rightBarButtonItem" image="cm2_top_icn_playing" id="6WY-bG-xBJ">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDi-6u-8HN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="298"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g6s-fv-EFk">
+            <objects>
+                <navigationController id="6ZF-8d-v1x" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cm2-wd-wX6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nJt-N6-P79" kind="relationship" relationship="rootViewController" id="jsz-Ze-wls"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEb-ty-3YC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-571" y="298"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cm2_top_icn_mic" width="28" height="28"/>
+        <image name="cm2_top_icn_playing" width="28" height="28"/>
+    </resources>
+</document>
